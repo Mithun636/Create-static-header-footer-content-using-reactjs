@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    height:60px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #090240;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+li{
+    margin: 0 15px;
+    font-size: x-large;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+a{
+    color: #f6f5f3;
+    text-decoration: none;
+}
+a:hover{
+    color: #2a12e1;
+}
